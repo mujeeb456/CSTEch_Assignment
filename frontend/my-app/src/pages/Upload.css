@@ -1,0 +1,147 @@
+/* Container similar vibe to dashboard with subtle gradient & padding */
+.upload-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f1ec, #e6dfd5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Card with glassmorphic blur & soft shadows */
+.upload-card {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(16px);
+  border-radius: 24px;
+  padding: 50px 40px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.upload-card:hover {
+  transform: scale(1.02);
+}
+
+/* Title styling */
+.upload-title {
+  font-size: 36px;
+  color: #3e3c36;
+  margin-bottom: 30px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+
+/* Form styling */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+/* Hidden real file input */
+.hidden-file-input {
+  display: none;
+}
+
+/* Custom file input label - luxurious button style */
+.custom-file-input {
+  background: linear-gradient(90deg, #cbb187, #b89d6a);
+  padding: 14px 30px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(193, 155, 104, 0.25);
+  user-select: none;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+}
+
+.custom-file-input:hover {
+  background: linear-gradient(90deg, #b89d6a, #a98c56);
+  box-shadow: 0 14px 28px rgba(193, 155, 104, 0.4);
+  transform: translateY(-2px);
+}
+
+.custom-file-input:active {
+  transform: scale(0.97);
+  box-shadow: 0 6px 12px rgba(193, 155, 104, 0.3);
+}
+
+/* Upload button - velvet touch */
+.upload-button {
+  background: linear-gradient(90deg, #cbb187, #b89d6a);
+  color: white;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(193, 155, 104, 0.25);
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 320px;
+}
+
+.upload-button:hover {
+  background: linear-gradient(90deg, #b89d6a, #a98c56);
+  box-shadow: 0 14px 28px rgba(193, 155, 104, 0.4);
+  transform: translateY(-2px);
+}
+
+.upload-button:active {
+  transform: scale(0.97);
+  box-shadow: 0 6px 12px rgba(193, 155, 104, 0.3);
+}
+
+/* Message text */
+.upload-message {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #555;
+  font-style: italic;
+}
+
+/* Distribution box */
+.distribution-container {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-shadow: 0 8px 24px rgba(193, 155, 104, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.distribution-title {
+  font-size: 24px;
+  color: #3e3c36;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.distribution-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.distribution-item {
+  font-size: 16px;
+  color: #4a463d;
+  margin-bottom: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(193, 155, 104, 0.15);
+  padding-bottom: 8px;
+}
