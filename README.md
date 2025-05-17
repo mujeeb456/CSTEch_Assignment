@@ -55,4 +55,16 @@ A full-stack MERN application that enables:
 
 ```bash
 git clone https://github.com/your-repo-name.git
-cd your-repo-name
+cd backend 
+cd frontend
+
+start backen
+cd backend
+npm install
+node server.js
+
+start frontend
+cd frontend
+npm install
+npm start
+
